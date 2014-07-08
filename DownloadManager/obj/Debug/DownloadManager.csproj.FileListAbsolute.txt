@@ -1,0 +1,6 @@
+c:\users\pascal\documents\visual studio 2013\Projects\DownloadManager\DownloadManager\bin\Debug\DownloadManager.dll
+c:\users\pascal\documents\visual studio 2013\Projects\DownloadManager\DownloadManager\bin\Debug\DownloadManager.pdb
+c:\users\pascal\documents\visual studio 2013\Projects\DownloadManager\DownloadManager\obj\Debug\DownloadManager.csprojResolveAssemblyReference.cache
+c:\users\pascal\documents\visual studio 2013\Projects\DownloadManager\DownloadManager\obj\Debug\DownloadManager.dll
+c:\users\pascal\documents\visual studio 2013\Projects\DownloadManager\DownloadManager\obj\Debug\DownloadManager.pdb
+C:\Users\Pascal\Documents\Visual Studio 2013\Projects\DownloadManager\DownloadManager\bin\Debug\ContinuousLinq.dll
