@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DownloadManager", "DownloadManager\DownloadManager.csproj", "{B5EAF71B-813C-4911-AAEC-76471B3AAD4F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleDownloader", "SimpleDownloader\SimpleDownloader.csproj", "{630B4852-5CA7-4DDC-930A-40A72AE09EFC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkGrabber", "LinkGrabber\LinkGrabber.csproj", "{57F9EB83-FDD5-4E79-928C-C6A300AB5343}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B5EAF71B-813C-4911-AAEC-76471B3AAD4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5EAF71B-813C-4911-AAEC-76471B3AAD4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5EAF71B-813C-4911-AAEC-76471B3AAD4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5EAF71B-813C-4911-AAEC-76471B3AAD4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{630B4852-5CA7-4DDC-930A-40A72AE09EFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{630B4852-5CA7-4DDC-930A-40A72AE09EFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{630B4852-5CA7-4DDC-930A-40A72AE09EFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{630B4852-5CA7-4DDC-930A-40A72AE09EFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57F9EB83-FDD5-4E79-928C-C6A300AB5343}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57F9EB83-FDD5-4E79-928C-C6A300AB5343}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57F9EB83-FDD5-4E79-928C-C6A300AB5343}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57F9EB83-FDD5-4E79-928C-C6A300AB5343}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

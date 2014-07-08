@@ -1,0 +1,34 @@
+﻿<Window x:Class="SimpleDownloader.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:dlm="clr-namespace:SimpleDownloader"
+        Title="Simple Downloader" MinHeight="100" Width="525" Topmost="True" SizeToContent="Height">
+    <Window.Resources>
+        <dlm:FileSizeConverter x:Key="fsc"></dlm:FileSizeConverter>
+    </Window.Resources>
+    <DockPanel>
+        <ItemsControl ItemsSource="{Binding Dlm.Downloads}">
+            <ItemsControl.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <StackPanel></StackPanel>
+                </ItemsPanelTemplate>
+            </ItemsControl.ItemsPanel>
+            <ItemsControl.ItemTemplate>
+                <DataTemplate>
+                    <DockPanel>
+                        <Grid DockPanel.Dock="Top">
+                            <ProgressBar Value="{Binding Percentage}" Height="25"></ProgressBar>
+                            <Label Content="{Binding File}" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"></Label>
+                        </Grid>
+                        <Label Content="{Binding State}" DockPanel.Dock="Left"></Label>
+                        <TextBlock DockPanel.Dock="Right">
+                            <Run Text="{Binding DownloadedBytes, Converter={StaticResource fsc}}"></Run>
+                            <Run Text=" von "></Run>
+                            <Run Text="{Binding TotalBytes, Converter={StaticResource fsc}}"></Run>
+                        </TextBlock>
+                    </DockPanel>
+                </DataTemplate>
+            </ItemsControl.ItemTemplate>
+        </ItemsControl>
+    </DockPanel>
+</Window>
